@@ -1,7 +1,13 @@
-package com.dorsetcollegeoop;
+import java.util.ArrayList;
 
 public class Lottery {
+    private ArrayList<Ticket> tickets = new ArrayList<Ticket>();
 
-    //Please, check panel, ticket and test classes first.
-    // They are almost done, gonna finish this on saturday
+    public Lottery(){
+        Message.DebugMessage("Creating a Lottery game");
+    }
+
+    public void addTicket(Ticket ticket){
+        tickets.add(ticket);
+    }
 }
