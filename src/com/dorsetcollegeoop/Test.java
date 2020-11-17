@@ -1,5 +1,3 @@
-package com.dorsetcollegeoop;
-
 import java.io.CharArrayReader;
 import java.util.Arrays;
 import java.util.List;
